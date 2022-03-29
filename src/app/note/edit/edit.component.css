@@ -1,0 +1,101 @@
+.input-container {
+   flex-basis: auto;
+   flex-grow: 0;
+   margin: 1rem 0 1rem 0;
+   border: 0;
+   padding: 0;
+}
+
+.first-input-container {
+   margin: 0 0 1rem 0;
+}
+
+.textarea-container {
+   flex-basis: 0; /* 0 = use up all available space */
+   flex-grow: 1;
+   display: flex;
+   flex-direction: column;
+   margin: 1rem 0 1rem 0;
+   border: 0;
+   padding: 0;
+}
+
+.editor-controls {
+   flex-basis: content;
+   flex-grow: 0;
+   display: flex;
+   flex-direction: row;
+   margin: 0;
+   border-top: 1px solid #bfbfbf;
+   border-right: 0;
+   border-bottom: 0;
+   border-left: 0;
+   padding: 1rem 0 0 0;
+   line-height: 2rem;
+   justify-content: center;
+}
+
+.editor-control {
+   margin: 0;
+   border-top: 0;
+   border-right: 1px solid #bfbfbf;
+   border-bottom: 0;
+   border-left: 0;
+}
+
+.last-editor-control {
+   border: 0;
+}
+
+.input-label {
+   margin: 0;
+   border: 0;
+   padding: 0 0 0.15em 1rem; /* The 0.15em at the bottom is to raise the font to be more centered inside its container. */
+   font-family: Dejavu Sans, sans-serif;
+   font-size: 0.9rem;
+   color: #555555;
+}
+
+.label-underline {
+   margin: 0 0 0.5rem 0;
+   border-top: 1px solid #d9d9d9;
+   border-right: 0;
+   border-bottom: 0;
+   border-left: 0;
+   padding: 0;
+}
+
+.field-input {
+   margin: 0;
+   border: 0;
+   padding: 0;
+   resize: none;
+   outline: none;
+   width: 100%;
+}
+
+.textarea-input {
+   flex-basis: 0;
+   flex-grow: 1;
+   margin: 0;
+   border: 0;
+   padding: 0;
+   resize: none;
+   outline: none;
+   width: 100%;
+}
+
+.editor-control-text {
+   margin: 0;
+   border: 0;
+   padding: 0 1em 0 1em;
+   font-family: Dejavu Sans, sans-serif;
+   color: blue;
+   font-size: 0.9rem;
+   vertical-align: middle;
+}
+
+.editor-control-text:hover {
+   text-decoration: underline;
+   cursor: pointer;
+}

@@ -1,0 +1,4 @@
+<div class="navigation-area" #navigationArea></div>
+<div>
+   <p class="navigation-title" (click)="viewItem(item.id)" *ngFor="let item of otherItems">{{ item.title }}</p>
+</div>

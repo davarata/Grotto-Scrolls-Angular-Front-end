@@ -1,0 +1,47 @@
+.navigation-title {
+   margin: 0;
+   border: 0;
+   padding: 0 0 0.15em 0; /* The 0.15em at the bottom is to raise the font to be more centered inside its container. */
+   line-height: 1.5em;
+   font-family: Dejavu Sans, sans-serif;
+   font-weight: bold;
+   font-size: 1rem;
+   white-space: nowrap;
+}
+
+.navigation-title:hover {
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+.selected-title:hover {
+   text-decoration: none;
+   cursor: auto;
+}
+
+.navigation-heading {
+   margin: 0;
+   border: 0;
+   padding: 0 0 0.15em 0;
+   line-height: 1.4em; /* this is supposed to match the text class, but for some reason 1.5em adds two more pixels here, so make it 1.4em. */
+   list-style: none;
+   font-family: Dejavu Sans, sans-serif;
+   font-size: 0.9rem;
+   white-space: nowrap;
+}
+
+.navigation-heading-text {
+   color: blue;
+}
+
+.navigation-heading-text:hover {
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+.ordered-list {
+   margin: 0;
+   border: 0;
+   padding: 0 0 0 1.5em;
+}
+

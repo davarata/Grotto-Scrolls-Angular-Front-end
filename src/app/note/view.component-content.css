@@ -1,0 +1,120 @@
+.title {
+   margin-top: 0;
+   margin-bottom: 0;
+   font-family: Nimbus Roman;
+   font-weight: normal;
+   font-size: 2.30rem;
+}
+
+/* There is a case to be made for having heading1 and heading2 also the same font as title. If looked at from an association perspective, it could be argued
+that heading1 and heading2 are closer to the title than headings3-5, which are closer to content. Heading 2 divides the page / entry into sections while heading 1
+is basically the same as a title, being used to place essentially two different entries into one one entry and giving each entry its own 'title'. heading 4 and 5
+are definitely more associated with the content, since most of the time heading 4 will be followed by content. In rare occasions, heading 5 will be used and then
+also it will be followed by content. heading 3 is closer to heading 2 than heading 1 or the title, so this is a natural point at which to switch to the font of
+the content. */
+.heading1 {
+   /* margin-top: 1.5rem; */
+   margin-bottom: 0;
+   font-family: Dejavu Sans, sans-serif;
+   font-weight: normal;
+   font-size: 1.63rem;
+}
+
+.heading2 {
+   /* margin-top: 1.5rem; */
+   margin-bottom: 0;
+   font-family: Dejavu Sans, sans-serif;
+   font-weight: normal;
+   font-size: 1.37rem;
+}
+
+.heading3 {
+   /* margin-top: 1.5rem; */
+   margin-bottom: 0;
+   font-family: Dejavu Sans, sans-serif;
+   font-size: 1.25rem;
+}
+
+.heading4 {
+   /* margin-top: 1.5rem; */
+   margin-bottom: 0;
+   font-family: Dejavu Sans, sans-serif;
+   font-size: 1.11rem;
+}
+
+.heading5 {
+   /* margin-top: 1.5rem; */
+   margin-bottom: 0;
+   font-family: Dejavu Sans, sans-serif;
+   font-size: 0.86rem;
+}
+
+.text {
+   font-family: Dejavu Sans, sans-serif;
+   font-size: 1rem;
+}
+
+.text-after-heading {
+   margin-top: 0;
+}
+
+.text-before-list {
+   margin-bottom: 0;
+}
+
+.text-after-list {
+   margin-top: 0;
+}
+
+/* .between-text {
+   font-family: Dejavu Sans, sans-serif;
+   font-size: 1rem;
+   background-color: brown;
+} */
+
+
+.heading-ruler {
+   border-top: 1px solid #aaaaaa;
+   border-right: 0;
+   border-bottom: 0;
+   border-left: 0;
+   padding: 0;
+   margin-top: 0;
+   margin-right: 0;
+   margin-bottom: 0.3rem;
+}
+
+.ordered-list {
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+.unordered-list {
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+.olist-item {
+   list-style: none;
+   font-family: Dejavu Sans, sans-serif;
+   font-size: 1rem;
+}
+
+.ulist-item {
+   font-family: Dejavu Sans, sans-serif;
+   font-size: 1rem;
+}
+
+.view-container {
+   flex-basis: 0;
+   flex-grow: auto;
+   margin: 0;
+   border: 1px solid red;
+   padding: 1rem 1rem 0 1rem;
+}
+
+/* span {
+   margin: 0;
+   padding: 0;
+   border: 0;
+} */

@@ -1,0 +1,29 @@
+
+.search-controls {
+   display: flex;
+}
+
+.search-field {
+   flex-basis: 0;
+   flex-grow: 1;
+   margin: 0;
+   border: 1px solid #bfbfbf;
+   border-radius: 4px;
+   outline: none;
+   line-height: 2;
+}
+
+
+.search-button {
+   margin-left: 1rem;
+   border: none;
+   font-family: Dejavu Sans, sans-serif;
+   color: blue;
+   font-size: 0.9rem;
+}
+
+.buttons:hover {
+   text-decoration: underline;
+   cursor: pointer;
+   background-color: white;
+}

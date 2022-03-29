@@ -1,0 +1,9 @@
+<h1>Welcome to Grotto Scrolls</h1>
+<hr>
+
+<br>
+<p class="note">Please select the content to view</p>
+
+<p *ngFor="let item of content" (click)="showContent(item.id)" class="item">
+    {{ item.title }}
+</p>

@@ -1,0 +1,41 @@
+<div class="total-area">
+   <div class="logo-area">
+      <a routerLink="/welcome">
+         <img src="assets/logo.png">
+      </a>
+
+   </div>
+   <div class="operations-area">
+      <ol class="ordered-list">
+         <li class="list-item"><span (click)="changeMode('new')" class="clickable">New note</span></li>
+         <li class="list-item"><span (click)="changeMode('open')" class="clickable">Open note</span></li>
+         <li class="list-item"><span (click)="changeMode('close')" class="clickable">Close note</span></li>
+      </ol>
+   </div>
+   <div app-navigation [id]="id" [otherItems]="otherItems" (viewItemEvent)="viewItemChanged($event)" class="navigation-area"></div>
+   <div class="global-controls-area"></div>
+   <div class="note-controls-area">
+      <div (click)="changeMode('view')" #viewOption class="option-entry selected-option">
+         View
+      </div>
+      <div (click)="changeMode('edit')" #editOption class="option-entry">
+         Edit
+      </div>
+      <div class="entry-filler"></div>
+      <div (click)="changeMode('delete')" #deleteOption class="option-entry">
+         Delete
+      </div>
+      <div #exportOption class="option-entry">
+         Export
+      </div>
+      <div #historyOption class="option-entry">
+         History
+      </div>
+      <div class="entry-filler last-entry"></div>
+   </div>
+   <div class="note-area">
+      <div app-view [id]="id" *ngIf="action == 'view'" class="view-container"></div>
+      <div app-edit [action]="action" [id]="id" (editEvent)="editCompleted($event)" *ngIf="action == 'new' || action == 'edit'" class="edit-container"></div>
+      <div app-search [id]="id" (searchEvent)="searchCompleted($event)" *ngIf="action == 'open'" class="search-container"></div>
+   </div>
+</div>

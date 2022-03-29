@@ -1,0 +1,66 @@
+.option-entry {
+   margin: 0;
+   border-top: 0;
+   border-right: 1px solid #bfbfbf;
+   border-bottom: 1px solid #bfbfbf;
+   border-left: 0;
+   padding: 0.6em 0.5em 0 0.5em;
+   font-family: Dejavu Sans, sans-serif;
+   color: blue;
+   font-size: 0.9rem;
+}
+
+.option-entry:hover {
+   text-decoration: underline;
+   cursor: pointer;
+}
+ 
+.selected-option {
+   border-bottom: 0;
+   color: black;
+   text-decoration: none;
+}
+
+.selected-option:hover {
+   text-decoration: none;
+   cursor: auto;
+}
+
+.entry-filler {
+   border-top: 0;
+   border-right: 1px solid #bfbfbf;
+   border-bottom: 1px solid #bfbfbf;
+   border-left: 0;
+}
+
+.last-entry {
+   border-top: 0;
+   border-right: 0;
+   border-bottom: 1px solid #bfbfbf;
+   border-left: 0;
+}
+
+.clickable {
+   color: blue;
+}
+
+.clickable:hover {
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+.ordered-list {
+   margin: 0;
+   border: 0;
+   padding: 0 0 0 1.5em;
+}
+
+.list-item {
+   margin: 0;
+   border: 0;
+   padding: 0 0 0.15em 0;
+   line-height: 1.4em; /* this is supposed to match the text class, but for some reason 1.5em adds two more pixels here, so make it 1.4em. */
+   list-style: none;
+   font-family: Dejavu Sans, sans-serif;
+   font-size: 1rem;
+}

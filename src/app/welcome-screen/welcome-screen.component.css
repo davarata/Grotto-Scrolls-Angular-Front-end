@@ -1,0 +1,32 @@
+h1 {
+    font-family: 'Nimbus Roman';
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+    font-size: 0.875em;
+}
+
+.note {
+    font-style: italic;
+    color: black;
+    text-align: center;
+}
+
+.item {
+    color: blue;
+    text-align: center;
+    cursor: pointer;
+}
+
+.item:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border-top: 1px solid #AAA;
+    border-bottom: 0px;
+}

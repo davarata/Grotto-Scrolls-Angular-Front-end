@@ -1,0 +1,10 @@
+<div class="search-controls">
+   <input class="search-field" name="search" [(ngModel)]="searchStr" (keydown.enter)="search()">
+   <button class="search-button" (click)="search()">Search</button>
+</div>
+
+<div *ngIf="searchResults.length > 0">
+   <p class="searchItem" *ngFor="let searchItem of searchResults" (click)="open(searchItem.id)">
+      {{ searchItem.title }}
+   </p>
+</div>

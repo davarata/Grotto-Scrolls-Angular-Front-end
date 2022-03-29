@@ -1,0 +1,14 @@
+<div class="input-container first-input-container">
+   <p class="input-label">Title</p>
+   <hr class="label-underline">
+   <input class="field-input" [(ngModel)]="content.title">
+</div>
+<div class="textarea-container">
+   <p class="input-label">Content</p>
+   <hr class="label-underline">
+   <textarea class="textarea-input" [(ngModel)]="content.content"></textarea>
+</div>
+<div class="editor-controls">
+   <div class="editor-control" (click)="save()"><p class="editor-control-text">Save</p></div>
+   <div class="editor-control last-editor-control" (click)="cancel()"><p class="editor-control-text">Cancel</p></div>
+</div>
